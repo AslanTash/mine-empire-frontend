@@ -9,11 +9,9 @@ import {
   NavIcon,
   MobileIcon,
   NavMenu,
-  NavLinks,
-  NavItem,
 } from "./NavbarStyles.js";
 import { useLocation, useHistory } from "react-router-dom";
-import { data } from "../../data/NavbarData";
+import { Button } from "../../globalStyles";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -54,13 +52,7 @@ const Navbar = () => {
             {show ? <FaTimes /> : <CgMenuRight />}
           </MobileIcon>
           <NavMenu show={show}>
-            {data.map((el, index) => (
-              <NavItem key={index}>
-                <NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>
-                  {el.text}
-                </NavLinks>
-              </NavItem>
-            ))}
+            <Button>Launch</Button>
           </NavMenu>
         </NavbarContainer>
       </Nav>

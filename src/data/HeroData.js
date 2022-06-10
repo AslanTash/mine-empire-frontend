@@ -1,46 +1,32 @@
-export const heroOne = {
-	reverse: true,
-	inverse: true,
-	topLine: {
-		text: 'Founded in 2012',
-	},
-	headline: "We've been in business for 9 years",
-	description: 'We have designed and implemented the best cloud security solutions',
-	buttonLabel: 'Find More',
-	imgStart: 'start',
-	img: './assets/svg/Deal.svg',
-	start: 'true',
-};
-
 export const heroTwo = {
-	reverse: false,
-	inverse: false,
-	topLine: {
-		text: 'Designed & Developed',
-	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
-	buttonLabel: 'View Project',
+  reverse: false,
+  inverse: false,
+  topLine: {
+    text: "",
+  },
+  headline: "Explore the Cosmos",
+  description:
+    "Travel to other planets, asteroids and galaxies in search of valuable resources. Use resources to either build incredible new technologies or simply cash out.",
+  buttonLabel: "Cosmos Wiki",
 
-	linkTo: '/more',
-	imgStart: 'start',
-	img: './assets/svg/Connection.svg',
-	start: 'true',
+  imgStart: "start",
+  img: "./assets/gades-card.png",
+  start: "true",
 };
 
 export const heroThree = {
-	reverse: true,
-	inverse: true,
-	topLine: {
-		text: 'Highly reputed brand',
-	},
-	headline: 'Why us? ',
-	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
-	buttonLabel: 'View Project',
+  reverse: true,
+  inverse: false,
+  topLine: {
+    text: "",
+  },
+  headline: "Mint, Upgrade and Expand your Mine Empire",
+  description:
+    "Stake drills in planets and earn resources. Upgrade drills with Cosmic Cash to boost production. Use resources to unlock new equipment and expand your empire.",
+  buttonLabel: "Laser Drill Wiki",
 
-	linkTo: '/download',
-	imgStart: '',
-	img: './assets/svg/ChartUp.svg',
-	start: 'true',
+  linkTo: "/download",
+  imgStart: "",
+  img: "./assets/asteroid-drill.png",
+  start: "true",
 };

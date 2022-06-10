@@ -1,48 +1,54 @@
-import React from 'react';
+import React from "react";
 
-import { BsFillShieldLockFill } from 'react-icons/bs';
-import { IoIosOptions } from 'react-icons/io';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { BiSupport, BiDollar } from 'react-icons/bi';
-import { GrHostMaintenance } from 'react-icons/gr';
+import { BsFillLightningFill } from "react-icons/bs";
+import { IoIosOptions } from "react-icons/io";
+import { AiOutlineCloudUpload } from "react-icons/ai";
+import { BiSupport, BiDollar, BiAtom, BiTrendingUp } from "react-icons/bi";
+import { GrHostMaintenance } from "react-icons/gr";
+import { RiGovernmentLine } from "react-icons/ri";
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
-	{
-		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
-		icon: iconStyle(BsFillShieldLockFill),
-		imgClass: 'one',
-	},
-	{
-		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
-		icon: iconStyle(IoIosOptions),
-		imgClass: 'two',
-	},
-	{
-		name: 'Maintenance',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
-		icon: iconStyle(GrHostMaintenance),
-		imgClass: 'three',
-	},
-	{
-		name: '24/7 Support',
-		description: 'Our team is available at all times in case you need us',
-		icon: iconStyle(BiSupport),
-		imgClass: 'four',
-	},
-	{
-		name: 'Price',
-		description: 'We offer the highest value/cost ratio',
-		icon: iconStyle(BiDollar),
-		imgClass: 'five',
-	},
-	{
-		name: 'Scalable',
-		description:
-			'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineCloudUpload),
-		imgClass: 'six',
-	},
+  {
+    name: "No Token Emissions",
+    description:
+      "By owning its liquidity, Mine Empire eliminates the need for farm emissions.",
+    icon: iconStyle(BiAtom),
+    imgClass: "one",
+  },
+  {
+    name: "No Team/VC Allocations",
+    description:
+      "We believe in being a net positive contributor to the crypto ecosystem. This means there will be ZERO founder/team/seed allocations.",
+    icon: iconStyle(BiTrendingUp),
+    imgClass: "two",
+  },
+  {
+    name: "Liquidity Buy Back",
+    description:
+      "We project to use up to 80% of our income in buying back the protocol tokens. This adds a constant buy pressure from the protocol itself.",
+    icon: iconStyle(BiDollar),
+    imgClass: "three",
+  },
+  {
+    name: "Low Barrier of Entry",
+    description:
+      "Mine Empire is designed for both small and big players alike. Mining equipment will be cheap to mint and will provide exponential leveling for the players who like to grind.",
+    icon: iconStyle(BsFillLightningFill),
+    imgClass: "four",
+  },
+  {
+    name: "Governance Accumulation",
+    description:
+      "By accumulating governance power in other dexes, we can vote for emissions on our own pools. A win - win for Mine Empire and our partners.",
+    icon: iconStyle(RiGovernmentLine),
+    imgClass: "five",
+  },
+  {
+    name: "Scalable",
+    description:
+      "With the power of the treasury, Mine Empire can quickly and sustainably scale up.",
+    icon: iconStyle(AiOutlineCloudUpload),
+    imgClass: "six",
+  },
 ];

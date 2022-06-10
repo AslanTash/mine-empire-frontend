@@ -35,6 +35,7 @@ export const NavLogo = styled(Link)`
   display: flex;
   align-items: center;
   z-index: 50;
+  width: 22rem;
 `;
 
 export const NavIcon = styled.img`
@@ -63,6 +64,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   width: 100%;
+  justify-content: flex-end;
 
   @media screen and (max-width: 960px) {
     flex-direction: column;
