@@ -1,10 +1,8 @@
 import React from "react";
 
 import { BsFillLightningFill } from "react-icons/bs";
-import { IoIosOptions } from "react-icons/io";
 import { AiOutlineCloudUpload } from "react-icons/ai";
-import { BiSupport, BiDollar, BiAtom, BiTrendingUp } from "react-icons/bi";
-import { GrHostMaintenance } from "react-icons/gr";
+import { BiDollar, BiAtom, BiTrendingUp } from "react-icons/bi";
 import { RiGovernmentLine } from "react-icons/ri";
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
