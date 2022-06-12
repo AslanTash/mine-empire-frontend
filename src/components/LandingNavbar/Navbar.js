@@ -31,7 +31,7 @@ const Navbar = () => {
             {show ? <FaTimes /> : <CgMenuRight />}
           </MobileIcon>
           <NavMenu show={show}>
-            <Button>Launch</Button>
+            <Button>Coming Soon</Button>
           </NavMenu>
         </NavbarContainer>
       </Nav>

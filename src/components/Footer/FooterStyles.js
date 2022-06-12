@@ -166,6 +166,9 @@ export const FooterRights = styled.div`
 export const FooterSocialIcon = styled.a`
   color: #fff;
   font-size: 24px;
+  img {
+    width: 50px;
+  }
 `;
 
 export const FooterAddress = styled.div`

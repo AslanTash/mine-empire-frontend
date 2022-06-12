@@ -15,13 +15,36 @@ const Hero = () => {
         <MainHeading>Open Economy Web3 Game</MainHeading>
         <ButtonWrapper>
           <HeroButton>
-            <img src="./assets/twitter.png" alt="" />
+            <a
+              href="https://twitter.com/mine_empire"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./assets/twitter.png" alt="" />
+            </a>
           </HeroButton>
           <HeroButton>
-            <img src="./assets/discord.png" alt="" />
+            <a
+              href="https://discord.gg/ZtH6KtpqGQ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./assets/discord.png" alt="" />
+            </a>
           </HeroButton>
           <HeroButton>
-            <img src="./assets/telegram.png" alt="" />
+            <a href="https://t.me/mineempire" target="_blank" rel="noreferrer">
+              <img src="./assets/telegram.png" alt="" />
+            </a>
+          </HeroButton>
+          <HeroButton>
+            <a
+              href="https://aslan-1.gitbook.io/mine-empire/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src="./assets/gitbook.png" alt="" />
+            </a>
           </HeroButton>
         </ButtonWrapper>
       </Container>

@@ -8,6 +8,7 @@ export const heroTwo = {
   description:
     "Travel to other planets, asteroids and galaxies in search of valuable resources. Use resources to either build incredible new technologies or simply cash out.",
   buttonLabel: "Cosmos Wiki",
+  linkTo: "https://app.gitbook.com/s/OvpPhNEqk5SQ2wdrHCTC/cosmos",
 
   imgStart: "start",
   img: "./assets/gades-card.png",
@@ -25,7 +26,8 @@ export const heroThree = {
     "Stake drills in planets and earn resources. Upgrade drills with Cosmic Cash to boost production. Use resources to unlock new equipment and expand your empire.",
   buttonLabel: "Laser Drill Wiki",
 
-  linkTo: "/download",
+  linkTo:
+    "https://app.gitbook.com/s/OvpPhNEqk5SQ2wdrHCTC/equipment/basic-drill",
   imgStart: "",
   img: "./assets/asteroid-drill.png",
   start: "true",

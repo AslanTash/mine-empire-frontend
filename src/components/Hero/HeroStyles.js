@@ -48,6 +48,7 @@ export const HeroButton = styled(Button)`
   &:before {
     background: #fff;
     height: 500%;
+    width: 150%;
   }
 
   &:hover:before {

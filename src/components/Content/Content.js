@@ -21,6 +21,7 @@ export const Content = ({
   headline,
   description,
   buttonLabel,
+  linkTo,
   img,
   alt,
   inverse,
@@ -69,15 +70,17 @@ export const Content = ({
               >
                 {description}
               </Subtitle>
-              <ContentButton
-                initial={initial}
-                transition={{ delay: 1, duration: 0.6 }}
-                animate={animation}
-                inverse={inverse}
-                primary={primary}
-              >
-                {buttonLabel}
-              </ContentButton>
+              <a href={linkTo} target="_blank" rel="noreferrer">
+                <ContentButton
+                  initial={initial}
+                  transition={{ delay: 1, duration: 0.6 }}
+                  animate={animation}
+                  inverse={inverse}
+                  primary={primary}
+                >
+                  {buttonLabel}
+                </ContentButton>
+              </a>
             </TextWrapper>
           </ContentColumn>
           <ContentColumn

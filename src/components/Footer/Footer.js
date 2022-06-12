@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   FooterLinkItems,
   FooterLinkTitle,
@@ -11,7 +12,7 @@ import {
   FooterColumn,
   FooterContainerFlex,
 } from "./FooterStyles";
-import { footerData, footerSocialData } from "../../data/FooterData";
+import { footerData } from "../../data/FooterData";
 import { Row, Section } from "../../globalStyles";
 
 function Footer() {
@@ -26,16 +27,34 @@ function Footer() {
             </FooterLogo>
 
             <Row align="center" margin="auto  0 0 0" gap="1rem">
-              {footerSocialData.map((social, index) => (
-                <FooterSocialIcon
-                  key={index}
-                  href="/"
-                  target="_blank"
-                  aria-label={social.name}
-                >
-                  {social.icon}
-                </FooterSocialIcon>
-              ))}
+              <FooterSocialIcon
+                href="https://twitter.com/mine_empire"
+                target="_blank"
+                aria-label="Twitter"
+              >
+                <img src="../../assets/twitter.png" alt="" />
+              </FooterSocialIcon>
+              <FooterSocialIcon
+                href="https://discord.gg/ZtH6KtpqGQ"
+                target="_blank"
+                aria-label="Discord"
+              >
+                <img src="../../assets/discord.png" alt="" />
+              </FooterSocialIcon>
+              <FooterSocialIcon
+                href="https://t.me/mineempire"
+                target="_blank"
+                aria-label="Telegram"
+              >
+                <img src="../../assets/telegram.png" alt="" />
+              </FooterSocialIcon>
+              <FooterSocialIcon
+                href="https://aslan-1.gitbook.io/mine-empire/"
+                target="_blank"
+                aria-label="Gitbook"
+              >
+                <img src="../../assets/gitbook.png" alt="" />
+              </FooterSocialIcon>
             </Row>
           </FooterColumn>
           <FooterLinkItemsContainer>
